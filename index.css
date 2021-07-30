@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "roboto";
+  margin: 0;
+}
+.header {
+  background-color: #fff159;
+  width: auto;
+  height: 68px;
+  display: flex;
+  justify-content: center;
+}
+.container-search {
+  width: 510px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.search-bar {
+  width: 365px;
+  height: 44px;
+  font-size: 18px;
+  padding: 5px;
+}
+.button-search {
+  width: 121px;
+  height: 44px;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: white;
+  border: solid 1px;
+}
+.main {
+  display: flex;
+  justify-content: center;
+}
+.container-main {
+  width: 510px;
+}
+.container-results {
+  width: auto;
+  margin-top: 17px;
+  margin-bottom: 22px;
+}
+.results {
+  font-size: 16px;
+}
+.link-prod {
+  text-decoration: none;
+  color: black;
+}
+.container-product {
+  height: 130px;
+  display: grid;
+  grid-template-columns: 136px 1fr 130px;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  border: solid 1px;
+  margin-bottom: 16px;
+}
+.container-el-img {
+  width: 128px;
+  height: 119px;
+  grid-row: 1/3;
+  place-self: center;
+}
+.img-prod {
+  width: 128px;
+  height: 119px;
+}
+
+.name-prod {
+  margin-bottom: 4px;
+  margin-top: 16px;
+  font-weight: bold;
+  font-size: 16px;
+}
+.condition {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+}
+.container-element-price {
+  justify-self: center;
+}
+.price {
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 33px;
+  color: #5791a4;
+}
+.sells {
+  font-size: 14px;
+}
